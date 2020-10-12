@@ -6,8 +6,9 @@
 }
 
 @media screen and (min-width: 769px){
-    .tablette{
-        width: 50%;
+    .tablette {
+        width: 49%;
+        display: inline-block;
     }
 }
 
