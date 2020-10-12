@@ -2,35 +2,22 @@
     display: inline-block;
     width: 100%;
 }
-.desktopGtxt{
+.desktopGtxt, .tablettetxt, .desktoptxt {
     display: none;
 }
-
-.tablettetxt{
-    display: none;
-}
-.desktoptxt{
-    display: none;
-}
-
 .inner{
     width: 100%;
     margin: 0 auto;
 }
-
 .txtcenter{
     text-align: center;
 }
-
 img{
     width: 100%;
 }
-
 div{
     padding: 1px;
 }
-
-
 @media screen and (min-width: 769px){
     .aff {
         width: 49%;
@@ -42,13 +29,10 @@ div{
         display: none;
     }
 }
-
-
 @media screen and (min-width: 970px){
     .aff{
         width: 472px;
     }
-
     .tablettetxt{
         display: none;
     }
@@ -56,17 +40,13 @@ div{
         display: block;
     }
 }
-
-
 @media screen and (min-width: 1370px){
     .desktoptxt{
         display: none
     }
-
     .desktopGtxt{
         display: block;
     }
-
     .aff{
         display: inline-block;
         width: 20%;
