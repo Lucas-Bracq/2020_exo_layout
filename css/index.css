@@ -14,7 +14,9 @@
 
 
 @media screen and (min-width: 970px){
-
+ .desktop{
+     width: 40%;
+ }
 }
 
 
