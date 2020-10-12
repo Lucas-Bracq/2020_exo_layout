@@ -1,0 +1,35 @@
+@media screen and (min-width: 320px){
+    .telephone{
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .tablette{
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 970px){
+
+}
+
+
+@media screen and (min-width: 1370px){
+
+}
+
+.inner{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.txtcenter{
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
